@@ -1,154 +1,150 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
-/*common start*/
+/*common css start*/
 .common{
-	padding-bottom: 50px;
+	padding: 50px 0;
 }
-/*common end*/
-/*header start*/
-.header button{
-	margin-left: 0 !important;
+/*common css end*/
+
+/*header css start*/
+/*header css end*/
+
+/*banner css start*/
+.first{
+	height: 250px;
 }
-/*header end*/
-/*features start*/
-.features .box{
-	margin: 6px 0 !important;
+.second{
+	height: 250px;
+	
 }
-.fea1-title{
-	text-align: center;
+.third{
+	height: 250px;
 }
-/*features end*/
-/*jackpot start*/
-.jackpot{
-	text-align: center;
+/*banner css end*/
+
+/*choose start*/
+.choose button{
+	margin: 10px;
 }
-.jackpot .l-text{
-	border-bottom: 2px solid black
-}
-/*jackpot end*/
-/*features-2 css start*/
-.features-2 .box{
-	text-align: center;
-}
-/*features-2 css end*/
-/*design start*/
-.design .text{
-	text-align: center;
-}
-/*design end*/
-/*choose css start*/
-.choose .box {
-    margin: 12px;
-}
-/*choose css end*/
-/*features33 start*/
-.features-3{
-	text-align: center;
- }
- /*features-3 end*/
- /*download start*/
- .download{
- 	text-align: center;
- }
- /*download end*/
+/*choose end*/
+
+/*footer css start*/
+/*footer css end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
-/*common start*/
+/*common css start*/
 .common{
-	padding-bottom: 50px;
+	padding: 60px 0;
 }
-/*common end*/
-/*header start*/
-.header button{
-	margin-left: 0 !important;
+/*common css end*/
+
+/*header css start*/
+/*header css end*/
+
+/*banner css start*/
+.first{
+	height: 250px;
 }
-/*header end*/
-/*features start*/
-.features .box{
-	margin: 20px 0 !important;
+.second{
+	height: 250px;
+	
 }
-.fea1-title{
-	text-align: center;
+.third{
+	height: 250px;
 }
-/*features end*/
-/*jackpot start*/
-.jackpot{
-	text-align: center;
+/*banner css end*/
+
+/*choose start*/
+/*choose end*/
+
+/*footer css start*/
+/*footer css end*/
 }
-.jackpot .l-text{
-	border-bottom: 2px solid black
-}
-/*jackpot end*/
-/*features-2 css start*/
-.features-2 .box{
-	text-align: center;
-}
-/*features-2 css end*/
-/*choose css start*/
-.choose .box {
-    margin: 15px;
-}
-/*choose css end*/
-/*features33 start*/
-.features-3{
-	text-align: center;
- }
- /*features-3 end*/
- /*download start*/
- .download{
- 	text-align: center;
- }
- /*download end*/
- }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
-/*common start*/
+/*common css start*/
 .common{
-	padding-bottom: 70px;
+	padding: 70px 0;
 }
-/*common end*/
-/*header start*/
-.header button{
-	margin-left: 0 !important;
+/*common css end*/
+
+/*header css start*/
+/*header css end*/
+
+/*banner css start*/
+.first{
+	height: 300px;
 }
-/*header end*/
-/*features start*/
-.features .box{
-	margin: 13px 0 !important;
+.second{
+	height: 300px;
+	
 }
-/*features end*/
-/*choose css start*/
-.choose .box {
-    margin: 20px;
+.third{
+	height: 300px;
 }
-/*choose css end*/
-/*features33 start*/
-.features-3{
-	text-align: center;
- }
- /*features-3 end*/	
- }
+/*banner css end*/
+
+/*choose start*/
+/*choose end*/
+
+/*footer css start*/
+/*footer css end*/
+}
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
+/*common css start*/
+/*common css end*/
 
-	
-	
- }
+/*header css start*/
+/*header css end*/
+
+/*banner css start*/
+/*banner css end*/
+
+/*choose start*/
+/*choose end*/
+
+/*footer css start*/
+/*footer css end*/
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
+/*common css start*/
+/*common css end*/
 
-	
-	
- }
+/*header css start*/
+/*header css end*/
 
+/*banner css start*/
+/*banner css end*/
+
+/*choose start*/
+/*choose end*/
+
+/*footer css start*/
+/*footer css end	*/
+}
 
 /*Extra Extra large devices (Extra large desktops, 1200px and up)*/
 @media (min-width: 1400px) { 
+/*common css start*/
+/*common css end*/
 
+/*header css start*/
+/*header css end*/
 
- }
+/*banner css start*/
+/*banner css end*/
+
+/*choose start*/
+/*choose end*/
+
+/*footer css start*/
+/*footer css end*/
+
+}
