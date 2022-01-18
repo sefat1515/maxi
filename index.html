@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css">
     <link rel="stylesheet" type="text/css" href="vendor/WOW/animate.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -26,10 +27,13 @@
   </head>
   
   <body>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/1.jpg">
+    <!-- ================================ -->
+    <!-- HEADER START -->
       <header>
         <div class="container">
           <!-- nav start -->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg navbar-light bg-0">
             <div class="container-fluid">
               <a class="navbar-brand logo" href="#"><h2>Taxi</h2></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,8 +58,8 @@
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                  <input class="form-control me-2 search-box" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success search-icon" type="submit"><i class="fas fa-search"></i></button>
                 </form>
               </div>
             </div>
@@ -63,7 +67,11 @@
           <!-- nav end -->
         </div>
       </header>
+      <!-- HEADER END -->
+      <!-- ================================ -->
 
+      <!-- ================================ -->
+      <!-- BANNER START -->
       <section class="banner">
         <div class="container-fluid">
           <div class="row">
@@ -139,10 +147,10 @@
         </div>
       </section>
       <!-- BANNER END -->
-      <!-- ================= -->
+      <!-- ================================ -->
 
 
-      <!-- ================= -->
+      <!-- ================================ -->
       <!-- CHOOSE START -->
       <section class="choose common">
         <div class="container">
@@ -154,7 +162,7 @@
           </div>
 
           <div class="row">
-            <div class="row-12 text-center">
+            <div class="col-12 text-center">
               <button class="btn btn-light rounded-pill">Town taxi</button>
               <button class="btn btn-light rounded-pill">Hybrid taxi</button>
               <button class="btn btn-light rounded-pill">Limo taxi</button>
@@ -162,20 +170,24 @@
             </div>
           </div>
 
-          <div class="row text-center">
+          <div class="row text-center ">
             <div class="col-12">
               <div class="choose-img">
-                <img src="images/town.jpg">
+                <img data-aos="fade-up" class="img-fluid" src="images/town.jpg">
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- CHOOSE END -->
+      <!-- ================================ -->
 
+      <!-- ================================ -->
+      <!-- BOOKING START -->
       <section class="form common">
         <div class="container">
           <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-6 booking">
+            <div class="col-md-6 col-sm-12 booking">
               <form>
                 <h2>Book a taxi now</h2>
 
@@ -251,31 +263,33 @@
               </form>
             </div>
 
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
               <div class="form-img">
-                <img class="img-fluid" src="images/girl.png">
+                <img class="img-fluid" data-aos="fade-left" src="images/girl.png">
               </div>
             </div>
 
           </div>
         </div>
       </section>
-      <!-- CHOOSE END -->
-      <!-- ================= -->
-      <br>
+      <!-- BOOKING END -->
+      <!-- ================================ -->
 
+
+      <!-- ================================ -->
       <!-- APP START -->
       <section class="app common">
         <div class="container">
           <div class="row d-flex justify-content-center align-items-center h-100">
 
-            <div class="col-md-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="app-img">
-                <img class="img-fluid" src="images/app.jpg">
+                <img class="img-fluid" data-aos="fade-right" src="images/app.jpg">
               </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-lg-6 col-sm-12">
+
               <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-12">
                   <h2 class="text-center">book your taxi in just a few second!</h2>
@@ -285,44 +299,45 @@
 
 
 
-              <div class="row">
+              <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-12">
                   <h2 class="text-center">taxi app key features:</h2>
-
-                  <div class="row d-flex justify-content-center align-items-center mb-5">
-                    <div class="col-1 app-icon"><h3 class="text-center m-3">1</h3></div>
-                    <div class="col-11">
-                      <p class="m-0">easy taxi booking // lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                    </div>
-                  </div> 
-
-                  <div class="row d-flex justify-content-center align-items-center mb-5">
-                    <div class="col-1 app-icon"><h3 class="text-center m-3">2</h3></div>
-                    <div class="col-11">
-                      <p class="m-0">easy taxi booking // lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                    </div>
-                  </div> 
-
-                  <div class="row d-flex justify-content-center align-items-center mb-5">
-                    <div class="col-1 app-icon"><h3 class="text-center m-3">3</h3></div>
-                    <div class="col-11">
-                      <p class="m-0">easy taxi booking // lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                    </div>
-                  </div> 
-
-                  <div class="row d-flex justify-content-center align-items-center mb-5">
-                    <div class="col-12">
-                      <h2 class="text-center">book your taxi in just a few second!</h2>
-                      <p>Our app is easy to use and very user friendly. Just choose your start and end location, select the car you like and in just a few minutes we'll be at your doorstep.</p>
-                    </div>
-                  </div>
-
                 </div>
               </div>
+
+              <div class="row d-flex justify-content-center align-items-center mb-5">
+                <div class="col-1 app-icon"><h3 class="text-center mt-2">1</h3></div>
+                <div class="col-11">
+                  <p class="m-0">easy taxi booking // lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                </div>
+              </div> 
+
+              <div class="row d-flex justify-content-center align-items-center mb-5">
+                <div class="col-1 app-icon"><h3 class="text-center mt-2">2</h3></div>
+                <div class="col-11">
+                  <p class="m-0">easy taxi booking // lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                </div>
+              </div> 
+
+              <div class="row d-flex justify-content-center align-items-center mb-5">
+                <div class="col-1 app-icon"><h3 class="text-center mt-2">3</h3></div>
+                <div class="col-11">
+                  <p class="m-0">easy taxi booking // lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                </div>
+              </div> 
+
+              <div class="row d-flex justify-content-center align-items-center mb-5">
+                <div class="col-12">
+                  <h2 class="text-center">book your taxi in just a few second!</h2>
+                  <p>Our app is easy to use and very user friendly. Just choose your start and end location, select the car you like and in just a few minutes we'll be at your doorstep.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- APP END -->
+      <!-- ================================ -->
 
       <!-- footer start -->
       <footer class="common">
@@ -380,8 +395,11 @@
 
 
     <!-- JS links -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="vendor/WOW/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
+   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.0/parallax.min.js"></script> -->
+    
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
 
     <script src="js/popper.min.js"></script>
